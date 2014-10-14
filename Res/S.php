@@ -76,6 +76,6 @@ class S{
 	
 	private function getStringsFromXmlFile(){
 		if($this->FILE_LANGUAGE[$this->Lang]!='')
-			$this->Xml=simplexml_load_file("http://localhost/laboratorio/RESOURCE/Res/string/it/it_IT.xml");
+			$this->Xml=simplexml_load_file(dirname(__FILE__).DIRECTORY_SEPARATOR.STRING_ROOT.DIRECTORY_SEPARATOR.$this->Lang.DIRECTORY_SEPARATOR.$this->FILE_LANGUAGE[$this->Lang]);
 	}
 }
