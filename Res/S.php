@@ -6,14 +6,14 @@
  * without creating complex structures of internationalization 
  * 
  *  How to use: 
- * First you need to customize the three constants (STRING_ROOT, LANG_DEFAULT, FILE_TYPE) 
- *   STRING_ROOT: folder where there is the shade for the internationalization <abbreviazione_lingua> \ <file_con_le_stringhe> 
- *   LANG_DEFAULT: the default language that will be used in the case during the instantiation of the class was not passed. 
- *   FILE_TYPE: the type of file in which only the strings, you can choose between ini or xml 
- * 
- * Customize then the array $ FILE_LANGUAGE that contains the names of files related to languages 
- * in the __construct function select the appropriate function loader
- * The use of the class will be as follows:
+ * First you need to customize the three constants (STRING_ROOT, LANG_DEFAULT, FILE_TYPE) 
+ *   STRING_ROOT: folder where there is the shade for the internationalization <abbreviazione_lingua> \ <file_con_le_stringhe> 
+ *   LANG_DEFAULT: the default language that will be used in the case during the instantiation of the class was not passed. 
+ *   FILE_TYPE: the type of file in which only the strings, you can choose between ini or xml 
+ * 
+ * Customize then the array $ FILE_LANGUAGE that contains the names of files related to languages 
+ * in the __construct function select the appropriate function loader
+ * The use of the class will be as follows:
  *  			require_once 'S.php';
  *					$S=new S('it');
  *
